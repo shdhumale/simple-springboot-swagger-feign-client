@@ -18,9 +18,7 @@ import javax.validation.constraints.*;
  * ModelAndView
  */
 @Validated
-@javax.annotation.Generated(value = "io.swagger.codegen.languages.SpringCodegen", date = "2021-07-16T12:33:46.914+05:30")
-
-
+@javax.annotation.Generated(value = "io.swagger.codegen.v3.generators.java.SpringCodegen", date = "2021-07-16T16:17:12.505207900+05:30[Asia/Calcutta]")
 public class ModelAndView   {
   @JsonProperty("empty")
   private Boolean empty = null;
@@ -197,7 +195,6 @@ public class ModelAndView   {
       return null;
     }
   }
-
   @JsonProperty("status")
   private StatusEnum status = null;
 
@@ -217,9 +214,8 @@ public class ModelAndView   {
    * @return empty
   **/
   @ApiModelProperty(value = "")
-
-
-  public Boolean isEmpty() {
+  
+    public Boolean isEmpty() {
     return empty;
   }
 
@@ -237,9 +233,8 @@ public class ModelAndView   {
    * @return model
   **/
   @ApiModelProperty(value = "")
-
-
-  public Object getModel() {
+  
+    public Object getModel() {
     return model;
   }
 
@@ -265,9 +260,8 @@ public class ModelAndView   {
    * @return modelMap
   **/
   @ApiModelProperty(value = "")
-
-
-  public Map<String, Object> getModelMap() {
+  
+    public Map<String, Object> getModelMap() {
     return modelMap;
   }
 
@@ -285,9 +279,8 @@ public class ModelAndView   {
    * @return reference
   **/
   @ApiModelProperty(value = "")
-
-
-  public Boolean isReference() {
+  
+    public Boolean isReference() {
     return reference;
   }
 
@@ -305,9 +298,8 @@ public class ModelAndView   {
    * @return status
   **/
   @ApiModelProperty(value = "")
-
-
-  public StatusEnum getStatus() {
+  
+    public StatusEnum getStatus() {
     return status;
   }
 
@@ -325,10 +317,9 @@ public class ModelAndView   {
    * @return view
   **/
   @ApiModelProperty(value = "")
-
-  @Valid
-
-  public View getView() {
+  
+    @Valid
+    public View getView() {
     return view;
   }
 
@@ -346,9 +337,8 @@ public class ModelAndView   {
    * @return viewName
   **/
   @ApiModelProperty(value = "")
-
-
-  public String getViewName() {
+  
+    public String getViewName() {
     return viewName;
   }
 
@@ -407,4 +397,3 @@ public class ModelAndView   {
     return o.toString().replace("\n", "\n    ");
   }
 }
-

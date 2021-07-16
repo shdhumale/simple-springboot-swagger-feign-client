@@ -13,9 +13,7 @@ import javax.validation.constraints.*;
  * View
  */
 @Validated
-@javax.annotation.Generated(value = "io.swagger.codegen.languages.SpringCodegen", date = "2021-07-16T12:33:46.914+05:30")
-
-
+@javax.annotation.Generated(value = "io.swagger.codegen.v3.generators.java.SpringCodegen", date = "2021-07-16T16:17:12.505207900+05:30[Asia/Calcutta]")
 public class View   {
   @JsonProperty("contentType")
   private String contentType = null;
@@ -30,9 +28,8 @@ public class View   {
    * @return contentType
   **/
   @ApiModelProperty(value = "")
-
-
-  public String getContentType() {
+  
+    public String getContentType() {
     return contentType;
   }
 
@@ -79,4 +76,3 @@ public class View   {
     return o.toString().replace("\n", "\n    ");
   }
 }
-

@@ -14,9 +14,7 @@ import javax.validation.constraints.*;
  */
 @ApiModel(description = "This is employee model")
 @Validated
-@javax.annotation.Generated(value = "io.swagger.codegen.languages.SpringCodegen", date = "2021-07-16T12:33:46.914+05:30")
-
-
+@javax.annotation.Generated(value = "io.swagger.codegen.v3.generators.java.SpringCodegen", date = "2021-07-16T16:17:12.505207900+05:30[Asia/Calcutta]")
 public class Employee   {
   @JsonProperty("id")
   private String id = null;
@@ -34,10 +32,9 @@ public class Employee   {
    * @return id
   **/
   @ApiModelProperty(required = true, value = "1")
-  @NotNull
+      @NotNull
 
-
-  public String getId() {
+    public String getId() {
     return id;
   }
 
@@ -55,10 +52,9 @@ public class Employee   {
    * @return name
   **/
   @ApiModelProperty(required = true, value = "siddhu")
-  @NotNull
+      @NotNull
 
-
-  public String getName() {
+    public String getName() {
     return name;
   }
 
@@ -107,4 +103,3 @@ public class Employee   {
     return o.toString().replace("\n", "\n    ");
   }
 }
-
